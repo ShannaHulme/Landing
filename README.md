@@ -1,6 +1,6 @@
 # Jumping In
 
-Creating a webpage from a TOP provided design
+Creating a webpage from a TOP provided design.
 
 ## Prelude
 

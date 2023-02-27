@@ -1,0 +1,42 @@
+html {
+  font-family: 'Roboto', arial;
+}
+
+.navy_box {
+  background-color: #1f2937;
+  color: #F9FAF8;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 18px #E5E7EB;
+}
+
+.awesome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 75px 150px;
+}
+
+.navy_right {
+  width: 200px;
+}
+

@@ -3,7 +3,7 @@ html {
 }
 
 .navy_box {
-  background-color: #1f2937;
+  background-color: #2d3680;
   color: #F9FAF8;
   display: flex;
   flex-direction: column;
@@ -15,10 +15,17 @@ html {
   flex-wrap: wrap;
 }
 
+.header > .logo_sub {
+  margin-right: auto;
+  margin-top: 42px;
+  padding: 0;
+}
+
 .header > img {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 15px;
+  height: 75px;
 }
 
 ul {
@@ -36,13 +43,6 @@ li {
   font-size: 18px #E5E7EB;
 }
 
-.hero {
-  font-size: 48px;
-  font-weight: bolder;
-  margin: 0;
-  padding: 0;
-}
-
 .awesome {
   display: flex;
   justify-content: center;
@@ -52,20 +52,119 @@ li {
   flex-wrap: wrap;
 }
 
-.navy_left, .navy_right {
-  flex: 1 0 250px;
+.hero {
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+.navy_left {
+  flex: 2
 }
 
 .navy_left > button {
-  background-color: #3882F6;
+  background-color: #ff973b;
   color: #E5E7EB;
   font-size: 14px;
   padding: 8px 24px;
   border-radius: 8px;
   border: none;
 }
-.navy_right {
+/* .navy_right {
   background-color: darkgray;
   height: 200px;
+  min-width: 400px;
+  flex-grow: 0;
+} */
+
+.navy_right > img {
+  max-height: 225px;
 }
 
+/* The Gallery -------------------------------------------------------------- */
+.white_title {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 75px 0 35px 0;
+}
+
+.blue_squares {
+  display: flex;
+  justify-content: center;
+  margin: 0 100px 75px 100px;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.square {
+  flex: auto;
+  max-width: 150px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.square > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 8px;
+}
+
+/* Grey Section ------------------------------------------------------------- */
+.gray_box {
+  background-color: #E5E7EB;
+  text-align: justify;
+  padding: 75px 150px;
+}
+.gray_box > p {
+  font-size: 24px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.author {
+  text-align: right;
+}
+
+/* Action section ----------------------------------------------------------- */
+.blue_box_filled {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff973b;
+  min-height: 50px;
+  padding: 25px 50px;
+  margin: 75px;
+  border-radius: 8px;
+  color: white;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 20px;
+}
+
+.left_box {
+  font-style: normal;
+}
+
+.support {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.donate {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.blue_box_filled > button {
+  background-color: #ff973b;
+  color: white;
+  font: normal 14px;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: 2px solid white;
+  /* flex-shrink: 0; */
+  width: 150px;
+  align-items: center;
+}

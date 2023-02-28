@@ -2,6 +2,10 @@ html {
   font-family: 'Roboto', arial;
 }
 
+body {
+  margin: 0;
+}
+
 .navy_box {
   background-color: #2d3680;
   color: #F9FAF8;
@@ -9,6 +13,7 @@ html {
   flex-direction: column;
   padding: 15px 100px;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -71,15 +76,23 @@ li {
   border-radius: 8px;
   border: none;
 }
-/* .navy_right {
-  background-color: darkgray;
-  height: 200px;
-  min-width: 400px;
-  flex-grow: 0;
-} */
+.navy_right {
+  display: flex;
+  flex-direction: column;
+}
 
 .navy_right > img {
   max-height: 225px;
+}
+
+.navy_right > cite {
+  font-size: smaller;
+  color: #E5E7EB;
+  text-align: right;
+}
+
+a {
+  color: #E5E7EB;
 }
 
 /* The Gallery -------------------------------------------------------------- */
@@ -114,7 +127,7 @@ li {
 /* Grey Section ------------------------------------------------------------- */
 .gray_box {
   background-color: #E5E7EB;
-  text-align: justify;
+  text-align: left;
   padding: 75px 150px;
 }
 .gray_box > p {
@@ -164,7 +177,14 @@ li {
   padding: 8px 24px;
   border-radius: 8px;
   border: 2px solid white;
-  /* flex-shrink: 0; */
   width: 150px;
-  align-items: center;
+  max-height: 32px;
+  align-self: center;
+}
+
+.footer {
+  background-color: #2d3680;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 24px;
 }

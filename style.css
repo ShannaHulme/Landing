@@ -6,6 +6,7 @@ body {
   margin: 0;
 }
 
+/* ---------------------------- //SECTION: Header --------------------------- */
 .navy_box {
   background-color: #2d3680;
   color: #F9FAF8;
@@ -48,6 +49,7 @@ li {
   font-size: 18px #E5E7EB;
 }
 
+/* ----------------------------- //SECTION: Hero ---------------------------- */
 .awesome {
   display: flex;
   justify-content: center;
@@ -95,7 +97,7 @@ a {
   color: #E5E7EB;
 }
 
-/* The Gallery -------------------------------------------------------------- */
+/* ------------------------- //SECTION: The Gallery ------------------------- */
 .white_title {
   font-size: 36px;
   font-weight: bolder;
@@ -124,7 +126,7 @@ a {
   border-radius: 8px;
 }
 
-/* Grey Section ------------------------------------------------------------- */
+/* ------------------------- //SECTION: Grey Section ------------------------ */
 .gray_box {
   background-color: #E5E7EB;
   text-align: left;
@@ -140,7 +142,7 @@ a {
   text-align: right;
 }
 
-/* Action section ----------------------------------------------------------- */
+/* -------------------------- //SECTION Orange box -------------------------- */
 .blue_box_filled {
   display: flex;
   justify-content: space-between;
@@ -182,6 +184,7 @@ a {
   align-self: center;
 }
 
+/* ---------------------------- //SECTION: Footer --------------------------- */
 .footer {
   background-color: #2d3680;
   color: #E5E7EB;
